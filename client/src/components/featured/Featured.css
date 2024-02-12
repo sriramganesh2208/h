@@ -1,0 +1,28 @@
+.featured{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: -100;
+   
+}
+
+
+.featuredImg{
+    width: 345px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.featuredItem{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+

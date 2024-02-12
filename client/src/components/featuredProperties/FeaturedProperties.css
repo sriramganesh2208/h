@@ -1,0 +1,44 @@
+.fp{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.fbItem{
+    flex: 1;
+    gap: 10px;
+    display:flex ;
+    flex-direction: column;
+    
+}
+
+.fbImg{
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px black;
+    object-fit: cover;
+}
+
+.fbName{
+    font-weight: 600;
+}
+
+.fbCity{
+    font-weight: 300;
+}
+
+.fbRating > button{
+    background-color: #003580;
+    color: white;
+    width: 30px;
+    height: 20px;
+}
+
+.fbRating>span{
+    font-size: 14px;
+}
